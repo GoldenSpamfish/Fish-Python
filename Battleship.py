@@ -24,9 +24,8 @@ def random_col(boardIn):
 
 ship_row = random_row(board)
 ship_col = random_col(board)
-print(ship_row)
-print(ship_col)
-
+print("hint: near row "+ str(ship_row+randint(0,1)))
+print("hint: near col "+ str(ship_col+randint(0,1)))
 
 def guess(turnNum):
     guess_row = int(input("Guess Row: "))
