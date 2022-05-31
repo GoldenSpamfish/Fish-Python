@@ -8,5 +8,5 @@ def is_prime(x):
         return True
 
 
-for i in range(-9, 9):
-    print(str(i) + str(is_prime(i)))
+for i in range(0, 10):
+    print(str(i) +" "+ str(is_prime(i)))
